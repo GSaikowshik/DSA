@@ -25,5 +25,7 @@ if __name__ == "__main__":
 
     print("GCD of", n1, "and", n2, "is:", gcd)
     
+
+    
     
                                 
