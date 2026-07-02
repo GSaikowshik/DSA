@@ -11,4 +11,4 @@ if __name__ == "__main__":
  if ArmstrongNum(N):
     print(f"{N} is an Armstrong number.")
  else:
-    print(f"{N} is not an Armstrong number.") 
+    print(f"{N} is not an Armstrong number.")  
