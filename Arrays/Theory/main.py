@@ -1,0 +1,21 @@
+a=[1,2,"kowshik",4]
+print(a)
+b=list((1,2,'kowshik',4,5,6))
+print(b)
+c=[45]*3
+print(c)
+print(a[2],b[3],c[-1])
+a.append(5)
+print(a)
+a.insert(3,9)
+print(a)
+b.extend([7,8,9])
+print(b)
+b[0]=69
+print(b)
+b.remove(69)
+print(b)
+b.pop()
+print(b)
+del b[0]
+print(b)
