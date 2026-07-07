@@ -24,8 +24,3 @@ if __name__ == "__main__":
     gcd = find_gcd(n1, n2)
 
     print("GCD of", n1, "and", n2, "is:", gcd)
-    
-
-    
-    
-                                
