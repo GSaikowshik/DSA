@@ -19,3 +19,5 @@ b.pop()
 print(b)
 del b[0]
 print(b)
+d=a[::-1]
+print(d)
