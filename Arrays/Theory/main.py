@@ -17,7 +17,7 @@ b.remove(69)
 print(b)
 b.pop()
 print(b)
-del b[0]
+del b[0] 
 print(b)
 d=a[::-1]
 print(d)
