@@ -21,3 +21,4 @@ if __name__ == "__main__":
     target = 14
     print(sol.two_sum_exists(arr, target))
     print(sol.two_sum_indices(arr, target))
+    
