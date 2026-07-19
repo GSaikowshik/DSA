@@ -17,4 +17,5 @@ if __name__ == "__main__":
    target=9
    nums=[2,7,11,15]
    print(sol.TwoSum(nums,target))
-   
+# Time Complexity: O(n)
+# Space Complexity: O(1)
