@@ -18,3 +18,6 @@ if __name__ == "__main__":
     sol=Solution()
     height=[1,8,6,2,5,4,8,3,7]
     print(sol.maxArea(height))
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
