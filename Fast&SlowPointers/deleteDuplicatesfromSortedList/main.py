@@ -14,17 +14,24 @@ class Solution:
             else:
                 curr = curr.next
         return head
-    
+    def create_linkedlist(self,arr:list[int])->Optional[listnode]:
+        if not arr:return None
+        head=listnode(arr[0])
+        curr=head
+        for val in arr[1:]:
+            curr.next=listnode(val)
+            curr=curr.next
+        return head
+    def linkedlist_to_array(self, head: Optional[listnode])-> list[int]:
+        result=[]
+        curr=head
+        while curr:
+            result.append(curr.val)
+            curr=curr.next
+        return result    
 if __name__ == "__main__":
-    head = listnode(1)
-    head.next = listnode(1)
-    head.next.next = listnode(2)
-    
     sol = Solution()
+    input_arr = [1,1,2,2,3,3]
+    head = sol.create_linkedlist(input_arr)
     result = sol.deleteDuplicates(head)
-    
-    curr = result
-    while curr:
-        print(f"{curr.val}", end="")
-        curr = curr.next
-    print("None")
+    print(sol.linkedlist_to_array(result))
