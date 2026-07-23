@@ -8,7 +8,7 @@ class Solution:
     def reverse_linkedlist(self,head:Optional[listnode])->Optional[listnode]:
         curr = head
         prev = None
-        while curr and curr.next:
+        while curr:
             temp = curr.next
             curr.next = prev
             prev = curr
