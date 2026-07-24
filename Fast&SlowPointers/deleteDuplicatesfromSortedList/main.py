@@ -31,7 +31,7 @@ class Solution:
         return result    
 if __name__ == "__main__":
     sol = Solution()
-    input_arr = [1,1,2,2,3,3]
+    input_arr = [1,1,2,2,3,3,4,4]
     head = sol.create_linkedlist(input_arr)
     result = sol.deleteDuplicates(head)
     print(sol.linkedlist_to_array(result))
