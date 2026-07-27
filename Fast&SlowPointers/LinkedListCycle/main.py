@@ -30,7 +30,7 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    input_arr = [1,2,5]
+    input_arr = [1,2,3,5]
     head = sol.create_linkedlist(input_arr)
     curr = head
     while curr.next:
