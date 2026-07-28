@@ -14,3 +14,5 @@ if __name__ == "__main__":
         print("IT IS PALINDROME")
     else:
         print("IT IS NOT PALIDROME")
+
+        
