@@ -16,8 +16,8 @@ class Solution:
         head = listnode(arr[0])
         curr = head
         for val in arr[1:]:
-        curr.next = listnode(val)
-        curr = curr.next
+         curr.next = listnode(val)
+         curr = curr.next
         return head
         
 if __name__ == "__main__":
