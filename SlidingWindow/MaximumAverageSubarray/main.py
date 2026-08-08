@@ -12,7 +12,7 @@ class Solution:
             max_avg=max(max_avg,avg)
         return max_avg
 if __name__=="__main__":
-    nums=[1,12,-5,-6,50,3,4,5,6]
+    nums=[1,12,-5,-6,50,3,4,5,6,7]
     k=4
     sol=Solution()
     k=sol.MaxAverage(nums,k)
