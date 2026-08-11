@@ -26,7 +26,7 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    input_arr = [2, 7, 11, 15]
+    input_arr = [2, 7, 11, 13,15]
     target = 9
     result = sol.twoSum(input_arr, target)
     print(f"Two Sum Output: {result}") 
