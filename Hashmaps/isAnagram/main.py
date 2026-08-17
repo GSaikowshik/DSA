@@ -18,7 +18,7 @@ class Solution:
         return True
 if __name__ == "__main__":
     s = "rat"
-    t = "tar"
+    t = "car"
     sol=Solution()
     k=sol.isAnagramm(s,t)
     print(k)
